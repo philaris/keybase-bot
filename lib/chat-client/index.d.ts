@@ -64,6 +64,7 @@ export interface ChatDownloadOptions {
 export interface ListenOptions {
     hideExploding: boolean;
     showLocal: boolean;
+    ignoreSourceLocal?: boolean;
 }
 export interface Advertisement {
     alias?: string;
